@@ -1,6 +1,4 @@
-SELECT name, age
-FROM person
-WHERE address = 'Kazan' AND gender = 'female'
-WHERE address = 'Kazan'
-AND gender = 'female'
+SELECT name, age FROM person
+where address = 'Kazan'
+ AND gender = 'female'
 ORDER BY name;
